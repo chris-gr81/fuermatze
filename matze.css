@@ -9,5 +9,5 @@ in dein Standard-Design*/
     font-size: 2rem; /* passt z.B. für Programm, aber nicht für Resident */
     padding-left: 25px; /* Du gibst 25px auf Letter-Spacing, das wird dann zum Problem, wenn Display nicht
     inline-Block ist, du aber center gehen willst. Die 25px musst du links dann wieder drauf schieben, am 
-    bestem mit padding. :) 
+    bestem mit padding. :) */
     }}
