@@ -11,3 +11,8 @@ in dein Standard-Design*/
     inline-Block ist, du aber center gehen willst. Die 25px musst du links dann wieder drauf schieben, am 
     bestem mit padding. :) */
     }}
+
+/* Bau das einfach in die grayscale.css ein. Da du das als Klassenselektor baust, überschreibt er den Tagselektor
+entsprechend. Die von dir gewählte Klasse musst du dann natürlich 
+auch im HTML setzen, sowas hier:
+ <h2 class="program">Program</h2> */
