@@ -1,0 +1,13 @@
+
+/*Der Query hier zündet nur, solange der Monitor unter 380px Breite liegt, danach springt er wieder
+in dein Standard-Design*/
+@media screen and (max-width: 380px) {
+    /* Teileweise sind deine Header inline-block, teilweise nur inline. Das kommt vom Framework.
+    Daher musst du für jede Überschrift die nicht sauber ist folgende zwei Parameter einstellen, 
+    das hier im Beispiel fixed dir "Programm" */
+    .individuelleKlasse {
+    font-size: 2rem; /* passt z.B. für Programm, aber nicht für Resident */
+    padding-left: 25px; /* Du gibst 25px auf Letter-Spacing, das wird dann zum Problem, wenn Display nicht
+    inline-Block ist, du aber center gehen willst. Die 25px musst du links dann wieder drauf schieben, am 
+    bestem mit padding. :) 
+    }}
